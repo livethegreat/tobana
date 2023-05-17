@@ -1,0 +1,1668 @@
+@font-face {
+  src: url(fonts/Poppins-Bold.ttf);
+  font-family: poppy;
+}
+
+@font-face {
+src: url(fonts/Poppins-Medium.ttf);
+font-family: pops;
+}
+
+@font-face {
+src: url(fonts/Poppins-Light.ttf);
+font-family: poppins;
+}
+
+
+
+body{
+  position: relative;
+  align-items: center;
+  margin: 0;
+ font-family: pops;
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) {
+ 
+
+ 
+  #headings{
+    background-color: #fff;
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    margin-left: 0;
+    height: 8%;
+    box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.4);
+ 
+    
+ 
+  }
+
+  #headings li{
+    display: inline;
+    margin: 3%;
+    padding: 0.5%;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  #headings li:hover{
+    background-color: #bc9c22;
+    box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.4);
+    color: #fff;
+   
+  }
+
+  #headings a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+ 
+
+
+  #headings img{
+    position: fixed;
+    width: 5vh;
+    top: 1.5%;
+  left: 2%;
+  
+  }
+
+  #headings #carting{
+    position: fixed;
+    z-index: 1;
+    right: 50%;
+    width: 100%;
+  }
+
+  #products .carting{
+    display: none;
+  }
+
+
+
+#align{
+  position: fixed;
+  color: #000000;
+  top: 0;
+  right: 0;
+ height: 100%;
+ padding-top: 3%;
+
+
+
+
+}
+
+
+
+#align ion-icon{
+  font-size: 0.7cm;
+ padding-top: 1.5%;
+ 
+
+  
+}
+
+
+
+  #sliding{
+    position: relative;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    padding-right:10vh;
+    bottom: 5%;
+    padding-bottom: 20%;
+    padding-top: 10%;
+ 
+  
+   
+  }
+
+
+
+  #sliding ul{
+   color: #fff;
+   display:list-item;
+   list-style: none;
+   text-align: center;
+  
+  }
+
+  #sliding li{
+    display:list-item;
+    margin-top: 40%;
+
+  }
+
+  #sliding a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+ #sliding ion-icon{
+  padding-top: 1.5%;
+  color: #fff;
+ 
+ }
+
+
+
+
+ #face{
+  position: relative;
+  width: 100%;
+  background-color: #bc9c22;
+ padding-top: 5%;
+ 
+
+
+ 
+ }
+
+ #face img{
+  position: relative;
+ width: 50%;
+ padding-top: 20%;
+ margin-left: 45%;
+ }
+
+
+
+
+
+#face p{
+  position: absolute;
+top: 0;
+margin-top: 30%;
+ margin-left: 5%;
+ font-size: 5vw;
+ color: #fff;
+ 
+}
+
+
+
+
+ #shop-el{
+  position: relative;
+  margin-left: 5%;
+ cursor: pointer;
+
+ 
+
+
+  
+ }
+
+ #shop-el button{
+  position: relative;
+padding: 1%;
+color: #fff;
+background-color: #000000;
+font-family: pops;
+padding-left: 3%;
+padding-right: 3%;
+border-style: none;
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+
+margin-bottom: 10%;
+border-radius: 5px;
+cursor: pointer;
+
+
+ }
+
+
+
+#para-el{
+  position: absolute;
+ right: 0;
+left: 0;
+top: 0;
+}
+
+
+  #products{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 0;
+  
+   
+  
+    
+  }
+
+
+
+  #products img{
+    width: 30%;
+    position: relative;
+    margin: 10%;
+    margin-bottom: 2%;
+   vertical-align: top;
+   border-width: 2px;
+   box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+   color: #bc9c22;
+    }
+
+ 
+    #products #img-1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-top: 0;
+      margin-top: 15%;
+      border-style: solid;
+      padding-bottom: 1%;
+     
+    }
+
+    #products #img-2{
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding-top: 0;
+      margin-top: 15%;
+      border-style: solid;
+    }
+
+
+    .third{
+      position: relative;
+      padding-top: 50%;
+    }
+
+  
+    #products #img-3{
+      position: relative;
+      padding-top: 0;
+      border-style: solid;
+      margin-bottom: 4%;
+    }
+
+
+
+
+
+   
+
+    #products button:hover{
+      background-color: #a68a1e;
+    
+
+    }
+
+    #products button:active{
+      background-color: #7b6616;
+    
+
+    }
+
+    
+#products button{
+  background-color: #bc9c22;
+  border-radius: 5px;
+}
+
+
+    #products #product-1, #product-2, #product-3{
+      width: 31%;
+      position: relative;
+      margin: 10%;
+      margin-top: 0;
+      padding: 4%;
+      padding-top: 3%;
+    right: 0%;
+   
+    border-style: none;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+ 
+   
+   
+      }
+
+     
+
+    
+      
+
+      #products #img-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 0;
+        margin-top: 20%;
+        border-style: solid;
+        padding-bottom: 1%;
+       
+      }
+  
+      #products #img-2{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 0;
+        margin-top: 20%;
+        border-style: solid;
+      }
+
+      #products #product-1{
+        position: absolute;
+        top: 0;
+       left: 0;
+        margin-top: 56%;
+        z-index: 1;
+       }
+
+   #products #product-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 56%;
+    z-index: 1;
+   
+   }
+
+
+
+#one{
+  position: absolute;
+  left: 0;
+ top: 0;
+margin: 5%;
+ 
+ 
+
+ 
+ 
+}
+
+#two{
+  position: absolute;
+  left: 0;
+ bottom: 0;
+  margin: 5%;
+}
+
+
+  
+      #cart{
+        position: relative;
+          width: 10%;
+         left: 80%;
+         margin: auto;
+         margin: 2%;
+         
+         background-color: #bc9c22;
+         border-color: #bc9c22;
+         border-radius: 5px;
+         box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+         cursor: pointer;
+    
+        }
+
+        
+        
+        #text{
+          text-decoration: none;
+          color: #000000;
+        }
+
+        
+        #cart ion-icon{
+          font-size: 0.7cm;
+          cursor: pointer;
+          position: relative;
+          
+         
+         
+        }
+        
+        
+        
+        #cart span{
+          font-size: 15px;
+          position: relative;
+         
+          
+        }
+
+      
+        #about-el{
+          align-items: center;
+          background-color: #b8b5b5b7;
+          padding-bottom: 5%;
+        }
+
+        #about-el p{
+          margin: 5%;
+          color: #000000;
+        }
+
+        #about-el h2{
+          padding-top: 10%;
+          margin: 10%;
+          color: #bc9c22;
+        }
+
+        #help h2{
+          padding: 0;
+        }
+
+        #about-el h3{
+          margin: 5%;
+          color: #bc9c22;
+        }
+
+        #about-el img{
+         
+         width: 50%;
+         border-style: solid;
+         border-color: #bc9c22;
+        
+        }
+
+        #foot{
+          background-color: #bc9c22;
+          padding-bottom: 2%;
+        }
+
+        #foot img{
+          width: 5vh;
+          margin-left: 5%;
+          margin-top: 5%;
+        }
+
+        #foot ul{
+          list-style: none;
+          padding: 0;
+          margin-left: 5%;
+        }
+
+      #insta{
+        font-size: 6vw;
+        margin-right: 10%;
+      }
+
+      #insta a {
+        color: inherit;
+      }
+
+  
+
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  #products{
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 0;
+   
+  
+    
+  }
+
+  #products img{
+    width: 40%;
+    position: relative;
+    margin: 5%;
+    margin-bottom: 2%;
+   vertical-align: top;
+   margin-top: 20%;
+   
+    }
+
+    #products #product-1{
+      position: absolute;
+      top: 0;
+     left: 0;
+      z-index: 1;
+    
+     }
+
+   
+
+     #first{
+      position: relative;
+      padding-top: 70%;
+     }
+
+     #para-el{
+     display: none;
+     }
+
+    
+
+ #products #product-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 70%;
+ 
+ }
+
+
+ #products #img-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0;
+  margin-top: 22%;
+  border-style: solid;
+  padding-bottom: 1%;
+ 
+}
+
+#products #img-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  margin-top: 22%;
+  border-style: solid;
+}
+
+ #products #img-3{
+  position: relative;
+  padding-top: 0%;
+  margin-bottom: 5%;
+  
+  
+}
+
+.third{
+  position: absolute;
+  top: 20%;
+ 
+  
+}
+
+
+  #products #product-1, #product-2, #product-3{
+    width: 40%;
+    position: relative;
+    margin: 5%;
+    margin-top: 0;
+    padding: 5%;
+  right: 0%;
+  
+
+ 
+ 
+    }
+
+      #cart ion-icon{
+          font-size: 0.7cm;
+          cursor: pointer;
+          position: relative;
+         
+         
+         
+        }
+
+        #about-el{
+          margin-top: 100%;
+        }
+
+
+        
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  #face h2{
+  font-size: 17px;
+  font-family: pops ;
+   }
+ 
+
+}
+
+
+@media only screen and (max-width: 460px) {
+  #face{
+  
+    padding-top: 5%;
+   
+   }
+
+  
+ 
+}
+
+
+@media only screen and (min-width: 460px) {
+
+  #face h2{
+  font-size: 25px;
+  font-family: pops ;
+   }
+
+   #sliding{
+  
+    padding-right:15vh;
+
+   
+  }
+
+  #face{
+    position: relative;
+    width: 100%;
+    background-color: #bc9c22;
+    
+  
+  
+   
+   }
+  
+   #face img{
+    position: relative;
+   width: 50%;
+   padding-top: 15%;
+   margin-left: 45%;
+   }
+  
+  
+  
+  
+  
+  #face p{
+    position: absolute;
+  top: 0;
+  margin-top: 25%;
+   margin-left: 5%;
+   font-size: 5vw
+  
+  }
+
+  #align{
+    position: fixed;
+    color: #000000;
+    top: 0;
+    right: 0;
+   height: 100%;
+   padding-top: 2%;
+  
+  
+  
+  
+  }
+
+  #sliding ion-icon{
+    padding-top: 0;
+    color: #fff;
+   
+   }
+
+}
+
+@media only screen and (min-width: 500px) {
+
+  #sliding{
+  
+    padding-right:30vh;
+  
+   
+  }
+
+  #sliding li{
+    display:list-item;
+    margin-top: 20%;
+
+  }
+
+  #headings img{
+    position: fixed;
+    width: 6vh;
+    top: 1%;
+  left: 2%;
+  
+  }
+
+  #products #product-1, #product-2, #product-3{
+   
+    padding: 3%;
+ 
+ 
+    }
+
+    
+#para-el{
+ 
+  margin-top: 5%;
+ 
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  #face h2{
+  font-size: 30px;
+  font-family: pops ;
+   }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+  #sliding{
+  
+    padding-right:40vh;
+  
+   
+  }
+}
+
+@media only screen and (min-width: 760px) {
+
+  #face h2{
+  font-size: 35px;
+  font-family: pops ;
+   }
+
+  
+
+}
+
+@media only screen and (min-width: 800px) {
+
+  #about-el{
+    padding-bottom: 15%;
+  }
+ 
+  #about-el img{
+    width: 30%;
+    border-style: solid;
+    border-color: #bc9c22;
+    margin-left: 5%;
+    margin-right: 2%;
+    
+   }
+
+  #helped img{
+    float: left;
+  }
+
+  #helping img{
+    float: right;
+    
+  }
+
+  #helping{
+    margin-right: 3%;
+  }
+ 
+#para-1{
+ display: inline;
+ margin: auto;
+
+
+}
+
+
+
+
+
+#para-2{
+ display: inline;
+    margin: auto;
+    
+   
+   
+    
+}
+
+
+
+
+
+  #help h2{
+    padding: 0;
+  }
+
+ 
+ 
+
+ 
+  
+
+ 
+
+
+}
+
+
+@media only screen and (min-width: 860px) {
+
+  #face h2{
+  font-size: 40px;
+  font-family: pops ;
+   }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  #face h2{
+  font-size: 45px;
+  font-family: pops ;
+   }
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+  #face h2{
+  font-size: 55px;
+  font-family: pops ;
+   }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  #cart{
+    position: relative;
+      width: 25%;
+     left: 60%;
+     margin: auto;
+     margin: 2%;
+
+    }
+
+    #cart span{
+      font-size: 17px;
+      position: relative;
+
+     
+      
+    }
+
+    #cart ion-icon{
+      font-size: 0.5cm;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+     
+   
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #sliding{
+    position: relative;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    padding-right:10vh;
+    bottom: 5%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+ 
+  }
+
+
+ 
+ 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+  #cart{
+    position: relative;
+      width: 15%;
+     left: 70%;
+     margin: auto;
+     margin: 2%;
+
+    }
+
+    #cart span{
+      font-size: 17px;
+      position: relative;
+
+     
+      
+    }
+
+    #cart ion-icon{
+      font-size: 0.5cm;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+     
+   
+    }
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+
+  #cart{
+    position: relative;
+      width: 20%;
+     left: 60%;
+     margin: auto;
+     margin: 2%;
+
+    }
+
+    #cart span{
+      font-size: 17px;
+      position: relative;
+
+     
+      
+    }
+
+    #cart ion-icon{
+      font-size: 0.5cm;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+     
+   
+    }
+  }
+
+  
+  @media only screen and (max-width: 799px) {
+
+  
+    #about-el img{
+      display: block;
+      margin-left: auto;   
+      margin-right: auto;
+     
+     
+     }
+    
+  }
+
+
+  @media only screen and (max-width: 999px) {
+    #headings ul{
+      display: none;
+    }
+
+   
+    #products #img-3{
+      position: relative;
+      margin-top: 30%;
+      
+    }
+
+  }
+
+  @media only screen and (min-width: 1000px) {
+
+    #align ion-icon{
+     display: none;
+     
+    }
+
+    #sliding{
+  
+   display: none;
+    
+     
+    }
+
+    
+ #face{
+  position: relative;
+  width: 100%;
+  background-color: #bc9c22;
+
+ }
+
+ #face img{
+  position: relative;
+ width: 50%;
+ padding-top: 10%;
+ margin-left: 45%;
+ }
+
+
+
+
+
+#face p{
+  position: absolute;
+top: 0;
+margin-top: 20%;
+ margin-left: 5%;
+ font-size: 5vw
+
+}
+
+.third{
+  position: relative;
+  padding-top: 0;
+}
+
+
+#para-el{
+ 
+  margin-top: 5%;
+ 
+}
+
+
+
+    #products{
+
+      background-color: #fff;
+      width: 80%;
+      position: relative;
+      align-items: center;
+      text-align: left;
+      margin: auto;
+      padding: auto;
+      padding-top: 40%;
+      margin-top: 0;
+      
+    
+    }
+
+
+
+
+    #products img{
+      width: 20%;
+      position: relative;
+      margin: 10%;
+      margin-bottom: 2%;
+     vertical-align: top;
+     
+      }
+
+      #products #img-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 0;
+       
+      }
+
+      #products #img-2{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-top: 0;
+       
+        
+      }
+
+      
+
+      .third{
+        position: absolute;
+        top: 0;
+       right: 0;
+       width: 100%;
+       
+      }
+
+    #products #img-3{
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding-top: 0;
+      margin-top: 20%;
+      
+      
+    }
+
+
+ 
+
+
+   #products #product-1, #product-2, #product-3{
+    width: 20%;
+    position: relative;
+    margin: 10%;
+    margin-top: 0;
+    padding: 2%;
+  right: 0%;
+  cursor: pointer;
+ 
+
+    }
+
+    #products #product-1{
+      position: absolute;
+      top: 0;
+     left: 0;
+     
+      margin-top: 45%;
+     }
+
+ #products #product-2{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 45%;
+  
+ }
+
+
+
+ #products #product-3{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 45%;
+ }
+
+
+ #cart{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  }
+
+
+
+   #face h2{ 
+
+    top: 35%;
+
+   }
+
+
+   #headings img{
+    position: fixed;
+    width: 7vh;
+    top: 1%;
+  left: 2%;
+  
+  }
+
+
+  #headings #carting{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+ #about-el img{
+  margin-left: 5%;
+ }
+
+  #about-el{
+   
+    width: 80%;
+   margin: auto;
+ 
+    
+  }
+
+
+#foot{
+  background-color: #bc9c22;
+  margin-top: 10%;
+}
+
+#foot img{
+  width: 7vh;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+ 
+#foot ul{
+  margin-left: 3%;
+}
+
+#insta{
+  font-size: 2vw;
+  margin-right: 10%;
+}
+
+  }
+
+
+
+
+
+/*---- cart page ---*/
+
+@media only screen and (min-width: 200px) {
+
+
+
+  #price1{
+
+    position: relative;
+   
+    background-color: #bc9c22;
+    width: 80%;
+    padding-bottom: 5%;
+    margin: auto;
+    margin-top: 10%;
+   
+   
+  }
+  
+  #price1 img{
+    position: relative;
+    width: 20%;
+    margin: 5%;
+   
+  }
+  
+  #price1 h3{
+    position: absolute;
+    top: 0;
+    margin-top: 10%;
+    margin-left: 33%;
+    font-size: 4vw;
+ 
+  
+    
+  }
+
+
+  
+  .buttons{
+    position: absolute;
+    top: 0;
+    margin-top: 10%;
+    margin-left: 60%;
+    width: 30%;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #minus{
+    float: left;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-left: 5%;
+  
+  
+  }
+  
+  #plus{
+    float: right;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-right: 5%;
+  
+  }
+  
+  #quantity{
+  
+    position: relative;
+    font-weight: bold;
+    margin: auto;
+    font-size: 4vw;
+   
+   
+  }
+
+ 
+
+
+  #quantity2{
+    position: relative;
+    font-weight: bold;
+    margin: auto;
+    font-size: 4vw;
+   
+    
+  }
+  
+  #quantity3{
+    position: relative;
+    font-weight: bold;
+    margin: auto;
+    font-size: 4vw;
+   
+  }
+
+
+  #remove-el{
+    margin-top: 30%;
+    font-size: 4vw;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+   
+    
+  
+   }
+
+   #sold-el{
+    padding-top: 20%;
+    position: relative;
+    padding-bottom: 5%;
+  
+  
+   }
+
+ 
+
+
+   #all{
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+   
+  }
+
+  #all h1{
+   position: absolute;
+   padding-top: 50%;
+  right: 0;
+  left: 0;
+  font-size: 5vw;
+  
+  }
+
+
+
+  #shop{
+    position: relative;
+    margin-left: 10%;
+    padding: 3%;
+    color: #fff;
+    background-color: #000000;
+    font-family: pops;
+    margin-top: 10%;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+   
+
+    
+  }
+
+
+  
+}
+
+
+
+
+@media only screen and (max-width: 300px) {
+
+  
+  #price1 h3{
+    
+    font-size: 5vw;
+    
+  }
+
+  
+  #minus{
+    
+    font-size: 5vw;
+  
+  
+  
+  }
+  
+  #plus{
+    
+    font-size: 5vw;
+   
+  }
+  
+  #quantity{
+  
+    font-size: 5vw;
+   
+  }
+
+  #quantity2{
+  
+    font-size: 5vw;
+   
+  }
+
+  #quantity3{
+  
+    font-size: 5vw;
+   
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  #price1{
+
+  
+    width: 50%;
+    
+   
+  }
+
+
+  #price1 img{
+    
+    width: 20%;
+   
+   
+  }
+
+
+
+
+  #price1 h3{
+    
+    font-size: 2vw;
+    
+  }
+
+  
+  #minus{
+    
+    font-size: 2vw;
+  
+  
+  
+  }
+  
+  #plus{
+    
+    font-size: 2vw;
+   
+  }
+  
+  #quantity{
+  
+    font-size: 2vw;
+   
+  }
+
+  #quantity2{
+  
+    font-size: 2vw;
+   
+  }
+
+  #quantity3{
+  
+    font-size: 2vw;
+   
+  }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+  #price1{
+
+  
+    width: 40%;
+    
+   
+  }
+
+
+  #price1 img{
+    
+    width: 20%;
+   
+   
+  }
+
+  .buttons{
+ 
+    width: 20%;
+   
+  }
+
+
+  #price1 h3{
+    
+    font-size: 1.5vw;
+    
+  }
+
+  
+  #minus{
+    
+    font-size: 1.5vw;
+  
+  
+  
+  }
+  
+  #plus{
+    
+    font-size: 1.5vw;
+   
+  }
+  
+  #quantity{
+  
+    font-size: 1.5vw;
+   
+  }
+
+  #quantity2{
+  
+    font-size: 1.5vw;
+   
+  }
+
+  #quantity3{
+  
+    font-size: 1.5vw;
+   
+  }
+
+  
+  #all{
+    position: relative;
+    
+  }
+
+  #shop{
+    position: relative;
+    margin-left: 20%;
+    padding: 1%;
+  
+    
+  }
+
+
+  #all h1{
+    font-size: 3vw;
+    padding-top: 20%;
+  
+   }
+
+   #sold-el{
+    padding-top: 10%;
+    position: relative;
+    padding-bottom: 5%;
+  
+  
+   }
+
+}
+
+  
+
+  
+  #plus{
+    cursor: pointer;
+  }
+  
+  #minus{
+    cursor: pointer;
+  }
+  
+
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+ 
