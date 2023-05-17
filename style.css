@@ -193,7 +193,7 @@ body{
 top: 0;
 margin-top: 30%;
  margin-left: 5%;
- font-size: 5vw;
+ font-size: 5.5vw;
  color: #fff;
  
 }
@@ -699,7 +699,7 @@ margin: 5%;
   top: 0;
   margin-top: 25%;
    margin-left: 5%;
-   font-size: 5vw
+   font-size: 5.5vw
   
   }
 
@@ -1308,7 +1308,7 @@ margin-top: 20%;
     top: 0;
     margin-top: 10%;
     margin-left: 33%;
-    font-size: 4vw;
+    font-size: 5vw;
  
   
     
@@ -1329,7 +1329,7 @@ margin-top: 20%;
   
   #minus{
     float: left;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: bold;
     margin-left: 5%;
   
@@ -1338,7 +1338,7 @@ margin-top: 20%;
   
   #plus{
     float: right;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: bold;
     margin-right: 5%;
   
@@ -1349,7 +1349,7 @@ margin-top: 20%;
     position: relative;
     font-weight: bold;
     margin: auto;
-    font-size: 4vw;
+    font-size: 5vw;
    
    
   }
@@ -1361,7 +1361,7 @@ margin-top: 20%;
     position: relative;
     font-weight: bold;
     margin: auto;
-    font-size: 4vw;
+    font-size: 6vw;
    
     
   }
@@ -1370,14 +1370,14 @@ margin-top: 20%;
     position: relative;
     font-weight: bold;
     margin: auto;
-    font-size: 4vw;
+    font-size: 6vw;
    
   }
 
 
   #remove-el{
-    margin-top: 30%;
-    font-size: 4vw;
+    margin-top: 27%;
+    font-size: 8vw;
     cursor: pointer;
     position: relative;
     float: right;
@@ -1546,6 +1546,13 @@ margin-top: 20%;
    
   }
 
+  #remove-el{
+    margin-top: 30%;
+    font-size: 4vw;
+   
+   
+   }
+
 }
 
 
@@ -1640,6 +1647,13 @@ margin-top: 20%;
     padding-bottom: 5%;
   
   
+   }
+
+   #remove-el{
+    margin-top: 32%;
+    font-size: 3vw;
+   
+   
    }
 
 }
